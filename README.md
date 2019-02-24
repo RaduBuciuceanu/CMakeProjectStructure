@@ -1,4 +1,4 @@
-# CMakeProjectStructure
+# Template.CMake.Cpp
 Basic structure for a CMake project written in C++. It's composed of 3 major layers: data layer, business layer and the presentation layer.
 
 ## Abbreviations
