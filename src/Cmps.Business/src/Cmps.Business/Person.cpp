@@ -2,13 +2,17 @@
 
 namespace Cmps::Business
 {
-const char* Person::getFirstName() const
+Person::Person(const char* firstName, const char* lastName) : _firstName(firstName), _lastName(lastName)
 {
-	return nullptr;
 }
 
-const char* Person::getLastName() const
+const char* Person::firstName() const
 {
-	return nullptr;
+	return _firstName;
+}
+
+const char* Person::lastName() const
+{
+	return _lastName;
 }
 }
