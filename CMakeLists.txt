@@ -27,12 +27,12 @@ set(CMPS_DATA
 set(CMPS_DATA_VERSION
 		1.0.0)
 
-set(CMPS_PRESENTATION_CONSOLE
-		Cmps.Presentation.Console)
+set(CMPS_CONSOLE
+		Cmps.Console)
 
-set(CMPS_PRESENTATION_CONSOLE_VERSION
+set(CMPS_CONSOLE_VERSION
 		1.0.0)
 
 add_subdirectory(src/${CMPS_BUSINESS})
 add_subdirectory(src/${CMPS_DATA})
-#add_subdirectory(${CMPS_PRESENTATION_CONSOLE})
+add_subdirectory(src/${CMPS_CONSOLE})
