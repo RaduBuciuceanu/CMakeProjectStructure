@@ -9,7 +9,7 @@ namespace Cmps::Data::Repositories
 {
 using namespace Business;
 
-class PUBLIC PersonRepository : public IPersonRepository
+class CMPS_DATA_PUBLIC PersonRepository : public IPersonRepository
 {
 private:
 	std::vector<const Person*> _persons;
