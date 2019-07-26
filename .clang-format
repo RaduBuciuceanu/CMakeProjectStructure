@@ -2,7 +2,7 @@ UseTab: Always
 TabWidth: 4
 IndentWidth: 4
 BreakBeforeBraces: Allman
-AllowShortIfStatementsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: Never
 IndentCaseLabels: false
 ColumnLimit: 0
 AccessModifierOffset: -4
