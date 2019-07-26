@@ -33,6 +33,6 @@ set(CMPS_PRESENTATION_CONSOLE
 set(CMPS_PRESENTATION_CONSOLE_VERSION
 		1.0.0)
 
-add_subdirectory(${CMPS_BUSINESS})
-add_subdirectory(${CMPS_DATA})
+add_subdirectory(src/${CMPS_BUSINESS})
+add_subdirectory(src/${CMPS_DATA})
 #add_subdirectory(${CMPS_PRESENTATION_CONSOLE})
