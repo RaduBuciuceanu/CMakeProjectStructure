@@ -2,9 +2,7 @@
 
 #include "Cmps.Business/Person.h"
 
-namespace Cmps
-{
-namespace Business
+namespace Cmps::Business
 {
 class IPersonRepository
 {
@@ -15,5 +13,4 @@ public:
 	virtual ~IPersonRepository() = default;
 	virtual const Person* create(const Person* person) = 0;
 };
-}
 }
