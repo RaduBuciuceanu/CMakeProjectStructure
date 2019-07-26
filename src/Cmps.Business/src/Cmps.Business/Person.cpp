@@ -1,8 +1,6 @@
 #include "Cmps.Business/Person.h"
 
-namespace Cmps
-{
-namespace Business
+namespace Cmps::Business
 {
 const char* Person::getFirstName() const
 {
@@ -12,6 +10,5 @@ const char* Person::getFirstName() const
 const char* Person::getLastName() const
 {
 	return nullptr;
-}
 }
 }
