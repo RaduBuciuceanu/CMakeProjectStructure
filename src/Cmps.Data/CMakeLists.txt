@@ -13,4 +13,7 @@ file(GLOB SOURCES
 add_library(${CMPS_DATA} SHARED ${SOURCES} ${HEADERS})
 
 target_include_directories(${CMPS_DATA} PUBLIC ./include PRIVATE ./src)
+
 target_link_libraries(${CMPS_DATA} PRIVATE ${CMPS_BUSINESS})
+
+target_compile_definitions(${CMPS_DATA} PRIVATE CMPS_DATA=1)
