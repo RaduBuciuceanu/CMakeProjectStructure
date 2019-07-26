@@ -330,4 +330,4 @@ ASALocalRun/
 .mfractor/
 
 # Build folder
-.cmake-build-debug/
+cmake-build-debug
