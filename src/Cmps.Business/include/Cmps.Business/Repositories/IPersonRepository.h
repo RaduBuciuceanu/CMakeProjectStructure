@@ -1,10 +1,11 @@
 #pragma once
 
+#include <Cmps.Business/Preprocessor.h>
 #include "Cmps.Business/Person.h"
 
 namespace Cmps::Business
 {
-class IPersonRepository
+class PUBLIC IPersonRepository
 {
 protected:
 	IPersonRepository() = default;

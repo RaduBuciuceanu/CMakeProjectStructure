@@ -1,8 +1,10 @@
 #pragma once
 
+#include <Cmps.Business/Preprocessor.h>
+
 namespace Cmps::Business
 {
-class Person
+class PUBLIC Person
 {
 private:
 	const char* _firstName;
