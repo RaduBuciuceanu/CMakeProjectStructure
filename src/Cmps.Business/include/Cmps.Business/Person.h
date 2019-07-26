@@ -4,7 +4,7 @@
 
 namespace Cmps::Business
 {
-class PUBLIC Person
+class CMPS_BUSINESS_PUBLIC Person
 {
 private:
 	const char* _firstName;

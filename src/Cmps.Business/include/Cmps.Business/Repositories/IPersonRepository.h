@@ -5,7 +5,7 @@
 
 namespace Cmps::Business
 {
-class PUBLIC IPersonRepository
+class CMPS_BUSINESS_PUBLIC IPersonRepository
 {
 protected:
 	IPersonRepository() = default;
