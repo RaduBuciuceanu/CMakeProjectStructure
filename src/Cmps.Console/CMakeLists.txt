@@ -11,4 +11,5 @@ file(GLOB SOURCES
 add_executable(${CMPS_CONSOLE} ${SOURCES} ${HEADERS})
 
 target_link_libraries(${CMPS_CONSOLE} PRIVATE ${CMPS_DATA} ${CMPS_BUSINESS})
+
 target_include_directories(${CMPS_CONSOLE} PRIVATE ./src)
