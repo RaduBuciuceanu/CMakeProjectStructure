@@ -2,11 +2,7 @@
 
 #include "Cmps.Business/Repositories/IPersonRepository.h"
 
-namespace Cmps
-{
-namespace Data
-{
-namespace Repositories
+namespace Cmps::Data::Repositories
 {
 using namespace Business;
 
@@ -15,6 +11,4 @@ class PersonRepository : public IPersonRepository
 public:
 	const Person* create(const Person* person) override;
 };
-}
-}
 }
